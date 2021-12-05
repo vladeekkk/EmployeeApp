@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PersonApp</string>
+    <string name="default_text">Default Text</string>
+    <string name="default_name">Default Name</string>
+    <string name="default_login">Default login</string>
+    <string name="city_9">City, 9 лет</string>
+    <string name="photo">photo</string>
+    <string name="closeDialog">close</string>
+    <string name="noInternet">No internet!</string>
+    <string name="toReload">Try to reload</string>
+    <string name="unknownError">Unknown Error!</string>
+</resources>

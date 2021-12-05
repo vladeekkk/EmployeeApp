@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginVertical="4dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageViewPerson"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginVertical="4dp"
+        android:contentDescription="@string/photo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:singleLine="false"
+        android:maxLines="2"
+        android:text="@string/default_name"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="12dp"
+        app:layout_constraintLeft_toRightOf="@id/imageViewPerson"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPersonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/default_login"
+        android:textSize="16sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewPerson"
+        app:layout_constraintTop_toBottomOf="@id/tvPersonName" />
+
+    <TextView
+        android:id="@+id/tvCityAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginStart="12dp"
+        android:text="@string/city_9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewPerson"
+        app:layout_constraintTop_toBottomOf="@+id/tvPersonLogin" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
